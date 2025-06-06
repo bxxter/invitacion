@@ -1,0 +1,63 @@
+.regalos {
+    background: linear-gradient(#ffffff69, #ffffff69),
+    url(/src/brocado-lila.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.regalos__elementos {
+    width: 100%;
+    min-height: 200px;
+}
+
+.regalos__titulo {
+    font-size: 2rem;
+    font-family: var(--text-titles);
+    margin: 2rem 0;
+    font-weight: 400;
+    color: var(--text-color-light);
+}
+
+.regalos__contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.regalos__logo {
+    max-width: 150px;
+    width: 100%;
+}
+
+.regalos__a {
+    text-decoration: none;
+    padding: 10px 35px;
+    background-color: #e30c81;
+    color: var(--text-color-dark);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 15px;
+}
+
+.regalos__a:hover {
+    background-color: transparent;
+    outline: 1px solid #e30c81;
+    color: var(--text-color-light);
+    transition: 500ms ease-in-out;
+    -webkit-transition: 500ms ease-in-out;
+    -moz-transition: 500ms ease-in-out;
+    -ms-transition: 500ms ease-in-out;
+    -o-transition: 500ms ease-in-out;
+}
+
+.regalos__p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}

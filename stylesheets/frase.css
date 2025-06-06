@@ -1,0 +1,25 @@
+.frase {
+    width: 100%;
+    min-height: 10vh;
+    background: var(--secondary-color);
+    color: var(--text-color-dark);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.frase__contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.frase__texto {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.frase__span {
+    margin-top: 15px;
+    font-weight: 900;
+    text-align: right;
+    display: block;
+}

@@ -1,0 +1,46 @@
+.principal {
+    background: linear-gradient(to bottom, transparent, 60%, var(--primary-color)),
+    url('../src/bnadsa.jpg');
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color-dark);
+    gap: 10px;
+    
+}
+
+.principal__h1 {
+    font-size: 3rem;
+    font-family: var(--text-titles);
+    margin-bottom: 1rem;
+}
+
+.principal__img {
+    height: 90px;
+}
+
+.principal__nombre {
+    font-size: 1.7rem;
+    margin: 0 10px;
+}
+.principal__fecha {
+    padding: 1.3rem 2.5rem;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .principal {
+        background-position: top;
+    }
+}

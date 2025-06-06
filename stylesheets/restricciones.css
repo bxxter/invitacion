@@ -1,0 +1,36 @@
+.restricciones {
+    background: linear-gradient(#ffffff69, #ffffff69),
+    url(/src/6016800.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.restricciones__elementos {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 4rem;
+}
+
+
+.restricciones__contenedor {
+    max-width: 300px;
+    min-height: 200px;
+    padding: 1rem;
+}
+
+.restricciones__icono {
+    max-height: 120px;
+    margin-bottom: 1rem;
+}
+
+.restricciones__texto {
+    font-size: 1.1rem;
+}
